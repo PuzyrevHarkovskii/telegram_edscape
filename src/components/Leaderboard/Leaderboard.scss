@@ -1,0 +1,129 @@
+.leaderboard__inner {
+    margin: 10px 0;
+}
+
+.leaderboard__title {
+    display: flex;
+    align-items: center;
+
+    /*font-family: 'Inter';*/
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+    margin-bottom: 10px;
+}
+
+.leaderboard__date-list {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.leaderboard__date-item {
+    /*font-family: 'Inter';*/
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    cursor: pointer;
+}
+
+.leaderboard__date-item:last-child {
+    margin-left: 8px;
+}
+
+.leaderboard__date-item.active {
+    position: relative;
+}
+
+.leaderboard__date-item.active:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    height: 1px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.leaderboard__users {
+    background: #212632;
+    border-radius: 15px;
+    padding: 21px 19px;
+
+    position: relative;
+}
+
+.leaderboard__users:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+
+    transform: translateY(-50%);
+
+    width: 3px;
+    height: 70%;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+
+.leaderboard__user {
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+
+    display: grid;
+    /*grid-template-columns: .1fr .6fr .2fr;*/
+    grid-template-columns: 1fr 7fr 1fr;
+    grid-template-rows: 1fr;
+
+    margin-bottom: 4px;
+}
+
+.leaderboard__img {
+    width: 36px;
+}
+
+.leaderboard__place {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.leaderboard__name {
+    /*font-family: 'Inter';*/
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.leaderboard__exp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+
+}
+
+.leaderboard__exp-number {
+    /*font-family: 'Inter';*/
+    text-align: left;
+    color: #5186EF;
+}
+
+.leaderboard__exp-name {
+    margin-left: 3px;
+}

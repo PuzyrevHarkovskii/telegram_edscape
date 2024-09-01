@@ -1,0 +1,24 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.App.fixed {
+    overflow: hidden;
+}
+
+.App__wrapper {
+    flex: 1;
+}
+
+.Link {
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.lightblue {
+    color: #5186EF;
+}

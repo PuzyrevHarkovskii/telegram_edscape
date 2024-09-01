@@ -1,0 +1,25 @@
+.create-textarea {
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding: 10px 35px 10px 20px;
+
+    border: none;
+    border-radius: 20px;
+
+    background-color: #E9EFF7;
+    color: black;
+    resize: none;
+}
+
+.create-textarea.remove {
+    padding: 10px 20px;
+}
+
+.create-textarea:focus {
+    outline: 0;
+}

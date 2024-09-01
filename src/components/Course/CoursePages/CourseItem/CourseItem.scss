@@ -1,0 +1,10 @@
+.course-item {
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+}
+
+.course-item__content {
+    flex: 1;
+}

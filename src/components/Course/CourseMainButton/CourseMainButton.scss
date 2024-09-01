@@ -1,0 +1,19 @@
+.course-main-button {
+    display: flex;
+    align-items: baseline;
+
+    background: #FFFFFF;
+    border-radius: 15px;
+
+    padding: 15px;
+    font-weight: 700;
+    font-size: 17px;
+    color: #000000;
+
+    margin: 15px auto 0;
+    cursor: pointer;
+}
+
+.course-main-button__text {
+    margin-right: 5px
+}

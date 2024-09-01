@@ -1,0 +1,48 @@
+.create-quiz-type {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 10px;
+}
+
+.create-quiz-type__inner {
+    display: flex;
+}
+
+.create-quiz-type__inner input {
+    width: 40px;
+}
+
+.create-quiz-type__type {
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.create-quiz-type__type.timer {
+    margin-right: 5px;
+    width: 50px;
+}
+
+.create-quiz-type__wrapper-item {
+    margin-bottom: 10px;
+}
+
+.create-quiz-type__item {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    cursor: pointer;
+}
+
+.create-quiz-type__item-inner {
+    display: flex;
+    cursor: pointer;
+}
+
+.create-quiz-type__item.timer {
+    cursor: default;
+}
+
+.create-quiz-type__text {
+    margin-right: 5px;
+}

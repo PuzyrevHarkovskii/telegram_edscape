@@ -1,0 +1,106 @@
+.quiz-result__inner {
+    padding-bottom: 20px;
+}
+
+.quiz-result__status-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.quiz-result__status {
+    margin: 24px 0;
+}
+.quiz-result__status-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100px;
+    height: 100px;
+
+    background: #E54D45;
+    border: 2px solid #E54D45;
+    border-radius: 50%;
+    margin: 0 auto;
+
+    margin-bottom: 37px;
+}
+.quiz-result__status-circle.green {
+    background: #34B547;
+    border: 2px solid #34B547;
+}
+.quiz-result__status-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.quiz-result__content {}
+.quiz-result__item-top {
+    border: 3px solid #212632;
+    border-radius: 15px;
+
+    padding: 22px 15px;
+    margin-bottom: 11px;
+}
+.quiz-result__item-top-el {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.quiz-result__item-top-el:last-child {
+    margin-bottom: 0;
+}
+.quiz-result__item-top-el-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #D1D1D6;
+}
+.quiz-result__item-top-el-numbers {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+.quiz-result__item-bottom {
+    border: 3px solid #212632;
+    border-radius: 15px;
+
+    padding: 22px 15px;
+    margin-bottom: 11px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+
+}
+.quiz-result__item-bottom-text {}
+.quiz-result__item-bottom-adviсe {}
+.quiz-result__item-bottom-el {}
+.quiz-result__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 3px solid #212632;
+    border-radius: 15px;
+
+    padding: 22px 15px;
+    text-decoration: none;
+    color: white;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.quiz-result__button-text {
+    margin-right: 5px;
+}

@@ -1,0 +1,26 @@
+.create-quiz-bottom {
+    width: 100%;
+    max-width: 700px;
+
+    margin: 30px auto 0;
+
+    border-radius: 20px;
+    background-color: lightsalmon;
+
+    padding: 20px 30px;
+}
+
+.create-quiz-bottom__name {
+    font-weight: bold;
+    font-size: 20px;
+
+    margin-bottom: 10px;
+}
+
+.create-quiz-bottom__wrapper {
+    margin-bottom: 10px;
+}
+
+.create-quiz-bottom__wrapper:last-child {
+    margin-bottom: 0;
+}

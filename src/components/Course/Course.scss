@@ -1,0 +1,10 @@
+.course {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.course__body {
+    flex: 1;
+    background-color: #212632;
+}

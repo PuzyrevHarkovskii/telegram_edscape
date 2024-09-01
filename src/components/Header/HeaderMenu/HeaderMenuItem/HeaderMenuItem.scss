@@ -1,0 +1,15 @@
+.header-menu-item {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 31px;
+
+    padding: 8px 20px 8px 0;
+    margin-bottom: 5px;
+}
+
+.header-menu-item__img {
+    width: 36px;
+    margin-right: 5px;
+}

@@ -1,0 +1,24 @@
+{
+  "cards": [
+    {
+      "id": "905cb1a9-7791-4cce-88a3-b00b5b654c7e",
+      "isBuy": false,
+      "type": "course",
+      "src": "",
+      "title": "asfd",
+      "exp": 0,
+      "questionCount": null,
+      "price": 0
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

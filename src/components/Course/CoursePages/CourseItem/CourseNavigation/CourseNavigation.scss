@@ -1,0 +1,28 @@
+.course-navigation {
+    padding: 16px 0;
+    background-color: #2D323D;
+}
+
+.course-navigation__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-navigation__item {
+    display: flex;
+    align-items: center;
+}
+
+.course-navigation__text {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.course-navigation__text.left {
+    margin-left: 5px;
+}
+
+.course-navigation__text.right {
+    margin-right: 5px;
+}

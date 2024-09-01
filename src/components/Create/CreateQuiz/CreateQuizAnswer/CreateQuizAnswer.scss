@@ -1,0 +1,23 @@
+.create-quiz-answer {
+    display: grid;
+    grid-template-columns: fit-content(13px) 1fr;
+
+    position: relative;
+}
+
+.create-quiz-answer__remove {
+    display: block;
+
+    position: absolute;
+    top: 45%;
+    right: 6px;
+    transform: translateY(-50%);
+
+    padding: 2px;
+}
+
+.create-quiz-answer__type {
+    margin-right: 8px;
+
+    cursor: pointer;
+}

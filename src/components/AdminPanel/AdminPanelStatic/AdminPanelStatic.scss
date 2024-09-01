@@ -1,0 +1,32 @@
+.admin-panel-static {
+    padding: 0 14px;
+}
+
+.admin-panel-quiz-subscription {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.admin-panel-quiz-subscription__item {
+    width: 120px;
+}
+
+.admin-panel-feedback {
+    margin-top: 15px;
+
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.admin-panel-course__item {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 15px;
+}

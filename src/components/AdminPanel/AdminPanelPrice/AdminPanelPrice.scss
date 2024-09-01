@@ -1,0 +1,16 @@
+.admin-panel-price__item {
+    margin-bottom: 20px;
+
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+
+    background: rgb(92,77,230);
+    background: linear-gradient(45deg, rgba(92,77,230,1) 0%, rgba(102,227,133,1) 100%);cursor: pointer;
+    cursor: pointer;
+}
+
+.admin-panel-price__item:last-child {
+    margin-bottom: 0;
+}
